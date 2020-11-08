@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      main {
-        max-width: 38rem;
-        padding: 2rem;
-        margin: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      Hello world
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<!--/* <style> */-->
+<!--/* main {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+} */-->
+<!--/* </style> */-->
+<link
+rel="canonical"
+href="https://getbootstrap.com/docs/4.0/examples/cover/"
+/>
 
-      <br />
-      <input id="number" type="number" min="0" max="9999" />
-      <br />
-      <canvas id="canvas"></canvas>
-    </main>
+<!-- Bootstrap core CSS -->
+<link
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+rel="stylesheet"
+/>
+<link href="cover.css" rel="stylesheet"/>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
-      integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js"></script>
-  </body>
+<!-- Custom styles for this template -->
+</head>
+<body class="text-center">
+
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+<main role="main" class="inner cover">
+<div class="inner">
+
+<br />
+<h1 class="cover-heading">Cisterian Numbers</h1>
+
+<!--/* <canvas id="canvas"></canvas> */-->
+</div>
+<p class="lead">The system uses a vertical straight line as its main symbol.
+<br/><br/>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Convert num :</span>
+  </div>
+<input class="form-control" id="number" type="number" value="1982"/>
+</div>
+<br/>
+<div id="canvasParent">
+</div>
+<br/>
+This symbol is essentially an axis that divides the two-dimensional plane into four quadrants. Each of these four quadrants signifies one of the four digits. The number can then be determined by visual inspection.
+<br/><br/>The numeral system was invented in the 1300s by French Cistercian monks. It was later replaced by the Hindu–Arabic numeral system. In any case, this numeral system later inspired several shorthands and secret ciphers.
+
+In Britain, the first person to use this cipher was John of Basingstoke.</p>
+<br/>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/9p55Qgt7Ciw">
+</iframe>
+<p class="lead">
+<!--/* <a href="#" class="btn btn btn-secondary">Learn more</a> */-->
+<br />
+<br />
+</p>
+</main>
+</div>
+
+<footer class="mastfoot mt-auto">
+</footer>
+</div>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA=="
+crossorigin="anonymous"
+></script>
+<script src="./p5.svg.js"></script>
+<script src="main.js"></script>
+</body>
 </html>
