@@ -111,7 +111,7 @@ function determineCanvasDimensions(numberOfSymbols) {
 
 
 function setup() {
-    cnv = createCanvas(400, 400, SVG); // aspect ratio for standard printing on the CNC
+    cnv = createCanvas(400, 400); // aspect ratio for standard printing on the CNC
     noLoop();
     strokeWeight(5)
     updateCanvas()
