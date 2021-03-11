@@ -315,3 +315,11 @@ class ScisserionSymbol {
     }
 
 }
+
+
+function numbersonly(field, e) {
+    let key;
+    let keychar;
+    let acceptedNums = "0123456789"
+    return acceptedNums.indexOf((e.key).toString()) != -1
+}
