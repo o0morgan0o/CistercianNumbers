@@ -10,4 +10,9 @@ Here is the related video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9p55Qgt7Ciw/0.jpg)](https://www.youtube.com/watch?v=9p55Qgt7Ciw)
 
-[view on github-page](https://o0morgan0o.github.io/CisterianNumbers/)
+You may also be interested in including Cistercian glyphs in your documents and programs.
+
+![](Images/unicode.png?raw=true)
+
+
+[View as github-page](https://o0morgan0o.github.io/CisterianNumbers/)
