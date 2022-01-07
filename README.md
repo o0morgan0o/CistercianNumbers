@@ -10,7 +10,8 @@ Here is the related video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9p55Qgt7Ciw/0.jpg)](https://www.youtube.com/watch?v=9p55Qgt7Ciw)
 
-You may also be interested in including Cistercian glyphs in one of your fonts.
+You may also be interested in including Cistercian glyphs in your documents and programs.
+
 ![](Images/unicode.png?raw=true)
 
 
