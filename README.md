@@ -15,4 +15,4 @@ You may also be interested in including Cistercian glyphs in your documents and 
 ![](Images/unicode.png?raw=true)
 
 
-[View as github-page](https://o0morgan0o.github.io/CisterianNumbers/)
+[View as github-page](https://o0morgan0o.github.io/CistercianNumbers/)
