@@ -7,7 +7,8 @@ Or using the Standard Galactic Alphabet included here.
 
 These will not show up correctly unless you have one of the aforementioned fonts installed.
 
-Ones:
+Ones
+
   CISTERCIAN UNITS DIGIT ZERO    U+EBA0
   CISTERCIAN UNITS DIGIT ONE     U+EBA1
   CISTERCIAN UNITS DIGIT TWO     U+EBA2
@@ -43,6 +44,8 @@ Hundreds
   CISTERCIAN HUNDREDS DIGIT EIGHT
   CISTERCIAN HUNDREDS DIGIT NINE  U+EBC9
 
+Thousands
+
   CISTERCIAN THOUSANDS DIGIT ONE  U+EBD1
   CISTERCIAN THOUSANDS DIGIT TWO  U+EBD2
   CISTERCIAN THOUSANDS DIGIT THREE
@@ -55,7 +58,11 @@ Hundreds
 
 Cistercian numerals 
 
-       +       +    +=      
+           +    +  =      
 1000 + 100 + 10 + 1  =   1,111
-      +       +    +=    
-1000 + 100 + 10 + 1  =   1,111 
+
+     +     +    +  =   
+2000 + 200 + 20 +  2 = 2,222
+
+     +     +    +  =   
+3000 + 300 + 30 + 3  = 3,333
